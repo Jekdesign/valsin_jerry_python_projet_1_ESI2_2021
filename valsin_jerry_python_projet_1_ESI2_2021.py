@@ -55,14 +55,10 @@ def actionPlayer():
             choice = int(
                 input("You have no more potions, you can only attack (1) : "))
 
-    print(" ")
-
     if choice == 1:
         attackPlayer()
     if choice == 2:
         takePotion()
-
-    print(" ")
 
     if player1["lifes"] > 0 and player2["lifes"] > 0:
         attack()
